@@ -50,7 +50,7 @@ const processBookingRequest = async (data, navigate, endPoint) => {
 };
 
 const processBookingApprove = async (data, navigate) => {
-  return fetch(`http://localhost:5001/api/bookings/accpet`, {
+  return fetch(`http://localhost:5001/api/bookings/accept`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
